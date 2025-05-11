@@ -1,5 +1,10 @@
 package com.rt3.LibraryProject.services;
 
+import com.rt3.LibraryProject.models.Book;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
 @Service
 public class BookService {
     private List<Book> books = List.of(
